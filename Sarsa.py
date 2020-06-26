@@ -1,3 +1,7 @@
+import gym
+import time
+import numpy as np 
+
 class SarsaAgent(object):
     def __init__(self, obs_n, act_n, learning_rate=0.01, gamma=0.9, e_greed=0.1):
         self.act_n = act_n      # 动作维度，有几个动作可选
